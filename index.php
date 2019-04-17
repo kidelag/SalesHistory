@@ -97,7 +97,7 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'Mlambr753');
+    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'password');
 }
 catch(Exception $e)
 {
@@ -112,12 +112,10 @@ $bdd->exec('INSERT INTO golden(dat, nom, numero, description, prix, vendeur) VAL
 <?php
 try
 {
-    // On se connecte à MySQL
-    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'Mlambr753');
+    $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'password');
 }
 catch(Exception $e)
 {
-    // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
 
