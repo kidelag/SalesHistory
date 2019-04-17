@@ -1,6 +1,6 @@
 # SalesHistory
 
-A bootstrap 3.7 webapp in PHP with MySQL to fill a table with a form.
+A bootstrap 3.7 website in PHP with MySQL to fill a table with a form.
 
 Used for a RolePlay game (Arma 3 - Server "Arma Life France") to manage sales of somes hats.
 
