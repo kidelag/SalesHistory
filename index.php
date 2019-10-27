@@ -125,6 +125,7 @@ $reponse = $bdd->query('SELECT * FROM golden');
 <table class="table">
   <thead class="thead">
     <tr>
+      <th scope="col">#</th>
       <th scope="col">Date</th>
       <th scope="col">Nom</th>
       <th scope="col">Numéro</th>
@@ -142,6 +143,7 @@ while ($donnees = $reponse->fetch())
 
 <tbody>
     <tr>
+      <td><?php echo $donnees['id']; ?></td>
       <td><?php echo $donnees['dat']; ?></td>
       <td><?php echo $donnees['nom']; ?></td>
       <td><?php echo $donnees['numero']; ?></td>
